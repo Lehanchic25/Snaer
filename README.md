@@ -1,4 +1,4 @@
-# JustItems
+# Snaer
 ### Russian
 Привет, этот репозиторий - пока что доступен только для немногих людей. Если вы знаете об этом моде вы везунчик!(или контрибутор) Этот мод пока что завязан только на небольшом количестве предметов. 
 
@@ -13,5 +13,5 @@ The basis was made by: Lehanchic25
 
 Mod Creator: Lethal Employee
 
-[![Stars](https://img.shields.io/github/stars/Lehanchic25/JustItems?color=7289da&label=⭐️%20Please%20Star%20Just%20Items%21)](https://github.com/Lehanchic25/JustItems)
-[![Download](https://img.shields.io/github/v/release/Lehanchic25/JustItems?color=6aa84f&include_prereleases&label=Latest%20version&logo=github&logoColor=white&)](https://github.com/Lehanchic25/JustItems/releases)[![Total Downloads](https://img.shields.io/github/downloads/Lehanchic25/JustItems/total?color=7289da&label&logo=docusign&logoColor=white)](https://github.com/Lehanchic25/JustItems/releases)
+[![Stars](https://img.shields.io/github/stars/Lehanchic25/Snaer?color=7289da&label=⭐️%20Please%20Star%20Snaer%21)](https://github.com/Lehanchic25/Snaer)
+[![Download](https://img.shields.io/github/v/release/Lehanchic25/Snaer?color=6aa84f&include_prereleases&label=Latest%20version&logo=github&logoColor=white&)](https://github.com/Lehanchic25/Snaer/releases)[![Total Downloads](https://img.shields.io/github/downloads/Lehanchic25/Snaer/total?color=7289da&label&logo=docusign&logoColor=white)](https://github.com/Lehanchic25/Snaer/releases)
