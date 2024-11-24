@@ -1,0 +1,20 @@
+  type: Liquid
+  gas: true
+  localizedName: Hydrogen
+  name: Hydrogen
+  flammability: 1
+  temperature: 0.1
+  heatCapacity: 0
+  viscosity: 0
+  effect: melting
+  hiddenOnPlanets: [
+    erekir
+  ]
+  color: 9EABF7
+  gasColor: 9EABF7
+  barColor: 9EABF7
+  lightColor: 9EABF7
+  coolant: false
+  research: {
+    parent: coreshard
+  } 
