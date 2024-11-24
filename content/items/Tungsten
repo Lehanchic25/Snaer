@@ -1,0 +1,14 @@
+  localizedName: Tungsten
+  name: Tungsten
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: 768A9A
+  cost: 1.5
+  hiddenOnPlanets: [
+    erekir
+  ]
+  research: {
+    parent: coreshard
+      }
