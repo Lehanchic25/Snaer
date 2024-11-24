@@ -1,0 +1,20 @@
+  type: Liquid
+  gas: false
+  localizedName: Methane
+  name: Methane
+  flammability: 0.3
+  temperature: 0.6
+  heatCapacity: 0.1
+  viscosity: 0.4
+  effect: melting
+  hiddenOnPlanets: [
+    erekir
+  ]
+  color: D18835
+  gasColor: D18835
+  barColor: D18835
+  lightColor: D18835
+  coolant: false
+  research: {
+    parent: coreshard
+  } 
