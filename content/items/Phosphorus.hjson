@@ -1,0 +1,14 @@
+  localizedName: Phosphorus
+  name: Phosphorus
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: CDB798
+  cost: 1
+  hiddenOnPlanets: [
+    erekir
+  ]
+  research: {
+    parent: coreshard
+  }

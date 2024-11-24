@@ -1,0 +1,14 @@
+  localizedName: Rhenium
+  name: Rhenium
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: BE82B1
+  cost: 1
+  hiddenOnPlanets: [
+    erekir
+  ]
+  research: {
+    parent: coreshard
+  }

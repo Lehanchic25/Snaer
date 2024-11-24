@@ -1,0 +1,14 @@
+  localizedName: Lithium
+  name: Lithium
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: 968283
+  cost: 1
+  hiddenOnPlanets: [
+    erekir
+  ]
+  research: {
+    parent: coreshard
+  }

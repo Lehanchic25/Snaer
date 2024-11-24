@@ -1,0 +1,14 @@
+  localizedName: Amorphous Alloy
+  name: Amorphous-Alloy
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: BBAFC9
+  cost: 1
+  hiddenOnPlanets: [
+    erekir
+  ]
+  research: {
+    parent: coreshard
+  }

@@ -1,0 +1,14 @@
+  localizedName: Fluomoss
+  name: Fluomoss
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: 9A8058
+  cost: 1
+  hiddenOnPlanets: [
+    erekir
+  ]
+  research: {
+    parent: coreshard
+  }
