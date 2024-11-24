@@ -1,0 +1,20 @@
+  type: Liquid
+  gas: true
+  localizedName: Fluorine
+  name: Fluorine
+  flammability: 0.3
+  temperature: 0.6
+  heatCapacity: 0.1
+  viscosity: 0.4
+  effect: melting
+  hiddenOnPlanets: [
+    erekir
+  ]
+  color: FFF79F
+  gasColor: FFF79F
+  barColor: FFF79F
+  lightColor: FFF79F
+  coolant: false
+  research: {
+    parent: coreshard
+  } 
