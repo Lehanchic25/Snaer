@@ -1,7 +1,7 @@
   type: Liquid
   gas: false
   name: Cold Water
-  description: "Item. /nJust item."
+  description: "Liquid. /nJust a liquid."
   flammability: 0
   temperature: -0.5
   heatCapacity: 0.01
