@@ -1,6 +1,5 @@
   type: Liquid
   gas: true
-  localizedName: Hydrogen
   name: Hydrogen
   flammability: 1
   temperature: 0.1
@@ -9,6 +8,7 @@
   effect: melting
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   color: 9EABF7
   gasColor: 9EABF7
@@ -16,5 +16,5 @@
   lightColor: 9EABF7
   coolant: false
   research: {
-    parent: coreshard
+    parent: core-shard
   } 
