@@ -1,11 +1,11 @@
   type: Liquid
   gas: true
   name: Fluorine
+  description: "Liquid. /nJust a liquid."
   flammability: 0.3
   temperature: 0.6
   heatCapacity: 0.1
   viscosity: 0.4
-  effect: melting
   hiddenOnPlanets: [
     erekir
     serpulo
