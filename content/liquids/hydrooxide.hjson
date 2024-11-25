@@ -1,7 +1,7 @@
   type: Liquid
   gas: false
-  localizedName: Hydrooxide
   name: Hydrooxide
+  description: "Liquid. /nJust a liquid."
   flammability: 0.3
   temperature: 0.6
   heatCapacity: 0.1
@@ -9,6 +9,7 @@
   effect: melting
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   color: AA66B4
   gasColor: AA66B4
@@ -16,5 +17,5 @@
   lightColor: AA66B4
   coolant: false
   research: {
-    parent: coreshard
+    parent: core-shard
   } 
