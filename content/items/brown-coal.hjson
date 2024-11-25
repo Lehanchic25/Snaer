@@ -1,5 +1,5 @@
   name: "Brown Coal"
-  description: "Item. /nJust item."
+  description: "Item. \nJust item."
   explosiveness: 0.1
   flammability: 1.15
   radioactivity: 0
