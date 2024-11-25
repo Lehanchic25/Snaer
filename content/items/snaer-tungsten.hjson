@@ -1,5 +1,5 @@
-  localizedName: Tungsten
   name: Tungsten
+  description: "Item. /nJust item."
   explosiveness: 0
   flammability: 0
   radioactivity: 0
@@ -8,7 +8,8 @@
   cost: 1.5
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   research: {
-    parent: coreshard
+    parent: core-shard
       }
