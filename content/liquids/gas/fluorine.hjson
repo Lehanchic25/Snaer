@@ -1,6 +1,5 @@
   type: Liquid
   gas: true
-  localizedName: Fluorine
   name: Fluorine
   flammability: 0.3
   temperature: 0.6
@@ -9,6 +8,7 @@
   effect: melting
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   color: FFF79F
   gasColor: FFF79F
@@ -16,5 +16,5 @@
   lightColor: FFF79F
   coolant: false
   research: {
-    parent: coreshard
+    parent: core-shard
   } 
