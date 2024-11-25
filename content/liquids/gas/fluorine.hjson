@@ -1,7 +1,7 @@
   type: Liquid
   gas: true
   name: Fluorine
-  description: "Liquid. /nJust a liquid."
+  description: "Liquid. \nJust a gas."
   flammability: 0.3
   temperature: 0.6
   heatCapacity: 0.1
