@@ -1,7 +1,7 @@
   name: Phosphorus
   description: "Item. /nJust item."
-  explosiveness: 0
-  flammability: 0
+  explosiveness: 0.08
+  flammability: 1.84
   radioactivity: 0
   charge: 0
   color: CDB798
