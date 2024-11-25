@@ -1,7 +1,7 @@
   type: Liquid
   gas: false
   name: Methane
-  description: "Liquid. /nJust a liquid."
+  description: "Liquid. \nJust a liquid."
   flammability: 0.85
   temperature: 0.4
   heatCapacity: 0.42
