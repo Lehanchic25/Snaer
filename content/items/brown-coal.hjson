@@ -1,7 +1,7 @@
   name: "Brown Coal"
   description: "Item. /nJust item."
-  explosiveness: 0
-  flammability: 0
+  explosiveness: 0.1
+  flammability: 1.15
   radioactivity: 0
   charge: 0
   color: 7F584B
