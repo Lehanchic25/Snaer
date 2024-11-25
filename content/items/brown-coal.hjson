@@ -6,10 +6,10 @@
   charge: 0
   color: 7F584B
   cost: 1
-  hiddenOnPlanets: [
-    erekir
-    serpulo
-  ]
+hiddenOnPlanets: [
+serpulo
+erekir
+]
   research: {
     parent: core-shard
   }
