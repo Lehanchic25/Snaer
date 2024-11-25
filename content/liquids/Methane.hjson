@@ -1,7 +1,7 @@
   type: Liquid
   gas: false
-  localizedName: Methane
   name: Methane
+  description: "Liquid. /nJust a liquid."
   flammability: 0.3
   temperature: 0.6
   heatCapacity: 0.1
@@ -9,6 +9,7 @@
   effect: melting
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   color: D18835
   gasColor: D18835
@@ -16,5 +17,5 @@
   lightColor: D18835
   coolant: false
   research: {
-    parent: coreshard
+    parent: core-shard
   } 
