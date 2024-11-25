@@ -2,11 +2,10 @@
   gas: false
   name: Methane
   description: "Liquid. /nJust a liquid."
-  flammability: 0.3
-  temperature: 0.6
-  heatCapacity: 0.1
-  viscosity: 0.4
-  effect: melting
+  flammability: 0.85
+  temperature: 0.4
+  heatCapacity: 0.42
+  viscosity: 0.6
   hiddenOnPlanets: [
     erekir
     serpulo
