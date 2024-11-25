@@ -1,9 +1,9 @@
   name: Palladium
-  description: "Item. /nJust item."
-  explosiveness: 0.3
+  description: "Item. \nJust item."
+  explosiveness: 0.1
   flammability: 0
   radioactivity: 1.32
-  charge: 0
+  charge: 0.2
   color: C8C8D0
   cost: 1
 hiddenOnPlanets: [
