@@ -1,7 +1,7 @@
   type: Liquid
   gas: false
-  localizedName: Cold Water
-  name: ColdWater
+  name: Cold Water
+  description: "Item. /nJust item."
   flammability: 0
   temperature: -0.5
   heatCapacity: 0.01
@@ -9,6 +9,7 @@
   effect: melting
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   color: C1BDF1
   gasColor: C1BDF1
@@ -16,5 +17,5 @@
   lightColor: C1BDF1
   coolant: false
   research: {
-    parent: coreshard
+    parent: core-shard
   } 
