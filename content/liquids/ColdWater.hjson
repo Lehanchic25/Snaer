@@ -1,0 +1,20 @@
+  type: Liquid
+  gas: false
+  localizedName: Cold Water
+  name: ColdWater
+  flammability: 0
+  temperature: -0.5
+  heatCapacity: 0.01
+  viscosity: 0.1
+  effect: melting
+  hiddenOnPlanets: [
+    erekir
+  ]
+  color: C1BDF1
+  gasColor: C1BDF1
+  barColor: C1BDF1
+  lightColor: C1BDF1
+  coolant: false
+  research: {
+    parent: coreshard
+  } 
