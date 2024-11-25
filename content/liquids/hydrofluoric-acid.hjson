@@ -1,7 +1,7 @@
   type: Liquid
   gas: false
-  localizedName: Hydrofluoric Acid
   name: Hydrofluoric-Acid
+  description: "Liquid. /nJust a liquid."
   flammability: 0.3
   temperature: 0.6
   heatCapacity: 0.1
@@ -9,6 +9,7 @@
   effect: melting
   hiddenOnPlanets: [
     erekir
+    serpulo
   ]
   color: D2B95F
   gasColor: D2B95F
@@ -16,5 +17,5 @@
   lightColor: D2B95F
   coolant: false
   research: {
-    parent: coreshard
+    parent: core-shard
   } 
