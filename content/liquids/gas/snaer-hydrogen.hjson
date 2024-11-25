@@ -1,6 +1,7 @@
   type: Liquid
   gas: true
   name: Hydrogen
+  description: "Liquid. /nJust a liquid."
   flammability: 1
   temperature: 0.1
   heatCapacity: 0
