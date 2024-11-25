@@ -1,0 +1,147 @@
+//localizedName: Thezsia
+description:
+'''
+Description
+
+Planet
+'''
+alwaysUnlocked: true
+mesh: [
+ {
+    //charrok
+    type: NoiseMesh
+    planet: thezsia
+    divisions: 3
+    scale: 2
+    mag: 2.5
+    seed: 7
+    radius: 0.94
+    color1: 1D1D23
+    color2: 313131
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //limestone
+    type: NoiseMesh
+    planet: theszia
+    divisions: 4
+    seed: 101
+    radius: 1.1
+    color1: 593C00
+    color2: 996100
+    octaves: 5.1
+    persistence: 1
+  }
+  {
+    //sulfur (piss)
+    type: NoiseMesh
+    planet: thezsia
+    divisions: 5
+    seed: 19
+    radius: 1.1
+     color1: FFA100
+    color2: FFCB00
+    octaves: 4.5
+    persistence: 1.1
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: thezsia
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: 5151517E
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: thezsia
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: 5151517E
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: thezsia
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: 5151517E
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 2
+  persistence: 0.58
+  scale: 9
+  mag: 0.79
+  thresh: 1.14
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChange: 0
+}
+
+sectorSize: 1.7
+allowLaunchSchematics: false
+allowLaunchToNumbered: true
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitTime: 540
+orbitSpacing: 17
+orbitRadius: 43
+solarSystem: odin-9a
+updateLighting: true
+radius: 1.2
+minZoom: 0.8
+drawOrbit: true
+//defaultEnv: 17
+cloudColor: 1a1816bb
+lighting: 111212ce
+ambientLight: 111212ce
+atmosphereColor: 313131FF
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 1583
+bloom: true
+visible: true
+iconColor: 313131FF
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: odin-9a
+solarSystem: odin-9a
+launchCandidates: []
+itemWhitelist: [
+  "rhenium",
+  "lithium",
+  "brown-coal",
+  "snaer-silicon",
+  "palladium",
+  "phosphorus",
+  "snaer-tungsten",
+  "amorphous-alloy",
+  "fluomoss",
+  "snaer-carbide"
+]

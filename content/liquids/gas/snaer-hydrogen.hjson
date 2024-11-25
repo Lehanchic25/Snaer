@@ -1,4 +1,4 @@
-  type: Liquid
+  //type: Liquid
   gas: true
   name: Hydrogen
   description: "Liquid. \nJust a gas."

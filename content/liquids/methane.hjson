@@ -1,4 +1,4 @@
-  type: Liquid
+  //type: Liquid
   gas: false
   name: Methane
   description: "Liquid. \nJust a liquid."
