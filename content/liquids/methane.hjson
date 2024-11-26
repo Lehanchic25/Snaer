@@ -16,5 +16,5 @@
   lightColor: D18835
   coolant: false
   research: {
-    parent: core-shard
+    parent: cold-water
   } 

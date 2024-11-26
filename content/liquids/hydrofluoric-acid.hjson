@@ -17,5 +17,5 @@
   lightColor: D2B95F
   coolant: false
   research: {
-    parent: core-shard
+    parent: hydroxide
   } 
