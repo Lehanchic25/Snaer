@@ -1,0 +1,15 @@
+  name: test
+  description: test
+  //captureWave: 10
+  difficulty: 1
+  alwaysUnlocked: true
+  addStartingItems: true
+  startWaveTimeMultiplier: 3
+  useAI: false
+  showSectorLandInfo: true
+  planet: snaer-a
+  sector: 0
+
+  research: {
+    parent: "frostbite"
+  }
