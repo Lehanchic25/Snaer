@@ -1,4 +1,4 @@
-//localizedName: Thezsia
+localizedName: Snaer
 description:
 '''
 Description
@@ -10,7 +10,7 @@ mesh: [
  {
     //charrok
     type: NoiseMesh
-    planet: thezsia
+    planet: snaer-a
     divisions: 3
     scale: 2
     mag: 2.5
@@ -24,7 +24,7 @@ mesh: [
   {
     //limestone
     type: NoiseMesh
-    planet: theszia
+    planet: snaer-a
     divisions: 4
     seed: 101
     radius: 1.1
@@ -36,7 +36,7 @@ mesh: [
   {
     //sulfur (piss)
     type: NoiseMesh
-    planet: thezsia
+    planet: snaer-a
     divisions: 5
     seed: 19
     radius: 1.1
@@ -49,7 +49,7 @@ mesh: [
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: thezsia
+   planet: snaer-a
    speed: 1.21
    radius: 0.1
    divisions: 6
@@ -61,7 +61,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: thezsia
+   planet: snaer-a
    speed: 1.01
    radius: 0.11
    divisions: 6
@@ -73,7 +73,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: thezsia
+   planet: snaer-a
    speed: 0.891
    radius: 0.091
    divisions: 6
@@ -129,7 +129,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: core-shard
+defaultCore: frostbite
 parent: odin-9a
 solarSystem: odin-9a
 launchCandidates: []

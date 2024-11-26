@@ -1,4 +1,4 @@
-//localizedName: "Odin-9A"
+localizedName: "Odin-9A"
 description:
 '''
 A white dwarf
@@ -6,7 +6,7 @@ A white dwarf
 mesh: [
  {
     type: SunMesh
-    planet: lumi
+    planet: odin-9a
     color1: fcfeff
     color2: f0faff
 	color3: f5f6ff
