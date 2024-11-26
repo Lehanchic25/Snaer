@@ -16,5 +16,5 @@
   lightColor: 9EABF7
   coolant: false
   research: {
-    parent: core-shard
+    parent: methane
   } 

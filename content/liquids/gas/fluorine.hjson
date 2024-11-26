@@ -16,5 +16,5 @@
   lightColor: FFF79F
   coolant: false
   research: {
-    parent: core-shard
+    parent: snaer-hydrogen
   } 
