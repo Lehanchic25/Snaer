@@ -6,10 +6,10 @@
   charge: 0
   color: 768A9A
   cost: 1.5
-hiddenOnPlanets: [
-serpulo
-erekir
+  hiddenOnPlanets: [
+    serpulo
+    erekir
 ]
   research: {
-    parent: core-shard
+    parent: palladium
       }

@@ -6,10 +6,10 @@
   charge: 0
   color: 89769A
   cost: 1.4
-hiddenOnPlanets: [
-serpulo
-erekir
+  hiddenOnPlanets: [
+    serpulo
+    erekir
 ]
   research: {
-    parent: core-shard
+    parent: snaer-tungsten
   }
