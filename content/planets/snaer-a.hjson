@@ -1,4 +1,4 @@
-localizedName: Snaer
+//localizedName: "Snaer-A"
 description:
 '''
 Description
@@ -7,129 +7,196 @@ Planet
 '''
 alwaysUnlocked: true
 mesh: [
- {
-    //charrok
+  //{
+  //  type: NoiseMesh
+  //  divisions: 5
+  //  radius: 0.94
+  //  color1: 43baba
+  //  color2: 28a699
+  //  octaves: 1
+  //  persistence: 0.0001
+  //  scale: 0.0001
+  //  mag: 1
+  //  coct: 1
+  //  cper: 1
+  //  cscl: 1
+  //  cthresh: 4
+  //}
+  {
+	//m1
+	//a two colour mesh type
     type: NoiseMesh
-    planet: snaer-a
-    divisions: 3
-    scale: 2
-    mag: 2.5
-    seed: 7
+    //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
+    divisions: 6
+    //mesh size - 1 is serpulo
     radius: 0.94
-    color1: 1D1D23
-    color2: 313131
-    octaves: 3.7
-    persistence: 1.1
+    //first colour to use 
+    color1: dfe7f0
+    //second
+    color2: cad9e3
+    //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
+    octaves: 6.4
+    persistence: 0.73
+    scale: 0.7
+    mag: 1.12
+    //these control how the two colours behave on the mesh
+    coct: 1
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
   }
   {
-    //limestone
+    //m2
     type: NoiseMesh
-    planet: snaer-a
-    divisions: 4
-    seed: 101
-    radius: 1.1
-    color1: 593C00
-    color2: 996100
-    octaves: 5.1
-    persistence: 1
+    divisions: 6
+    radius: 0.895
+    color1: cfe8da
+    color2: bed4b8
+    octaves: 7.4
+    persistence: 0.73
+    scale: 0.7
+    mag: 1.664
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
   }
   {
-    //sulfur (piss)
-    type: NoiseMesh
-    planet: snaer-a
+    //m3
+	type: NoiseMesh
+    divisions: 6
+    radius: 0.858
+    color1: d1fffa
+    color2: c3e5e1
+    octaves: 7.4
+    persistence: 0.64
+    scale: 0.7
+    mag: 1.85
+    coct: 4
+    cper: 1
+    cscl: 4
+    cthresh: 1
+  }
+  {
+    //m4
+	type: NoiseMesh
+    divisions: 6
+    radius: 0.83
+    color1: 9baacf
+    color2: 8ea7bf
+    octaves: 7.4
+    persistence: 0.73
+    scale: 0.7
+    mag: 2.4
+    coct: 4
+    cper: 1
+    cscl: 0.7
+    cthresh: 1
+  }
+  {
+    //m5
+	type: NoiseMesh
     divisions: 5
-    seed: 19
-    radius: 1.1
-     color1: FFA100
-    color2: FFCB00
-    octaves: 4.5
-    persistence: 1.1
+    radius: 0.739
+    color1: fde5ff
+    color2: f0dcfc
+    octaves: 7.2
+    persistence: 0.76
+    scale: 0.7
+    mag: 3.61
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
   }
 ]
 cloudMesh: [
- {
+  {
    type: HexSkyMesh
    planet: snaer-a
-   speed: 1.21
-   radius: 0.1
-   divisions: 6
-   color: 5151517E
+   speed: 0.882
+   radius: 0.147
+   divisions: 5
+   color: c5d5d960
    octaves: 3
-   persistence: 0.3
-   scl: 1
-   thresh: 0.6
+   persistence: 0.52
+   scl: 1.12
+   thresh: 0.72
   }
   {
    type: HexSkyMesh
    planet: snaer-a
-   speed: 1.01
-   radius: 0.11
-   divisions: 6
-   color: 5151517E
+   speed: 1.29
+   radius: 0.19
+   divisions: 4
+   color: adc0c944
+   octaves: 4
+   persistence: 0.35
+   scl: 0.86
+   thresh: 0.5
+  }
+  {
+   type: HexSkyMesh
+   planet: snaer-a
+   speed: 1.0
+   radius: 0.198
+   divisions: 5
+   color: 7f90a328
    octaves: 3
    persistence: 0.4
-   scl: 0.9
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: snaer-a
-   speed: 0.891
-   radius: 0.091
-   divisions: 6
-   color: 5151517E
-   octaves: 3
-   persistence: 0.5
-   scl: 1.1
-   thresh: 0.6
+   scl: 0.6
+   thresh: 0.65
   }
 ]
 generator: {
-  octaves: 2
-  persistence: 0.58
-  scale: 9
-  mag: 0.79
-  thresh: 1.14
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-  iceChange: 0
+  berylChance: 0.45
+  iceChance: 0.15
+  ferricChance: 0.55
+  stoneChance: 2
+  radMin: 1500
+  radMax: 1500
+  berylliumScale: 4
+  copperScale: 0.6
+  scale: 25
+  mag: 0.5
+  thresh: 0.9
+  fscl: 30
+  fper: 0.4
 }
 
 sectorSize: 1.7
-allowLaunchSchematics: false
-allowLaunchToNumbered: true
-allowLaunchLoadout: false
+allowLaunchSchematics: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
 allowSectorInvasion: false
 startSector: 0
-orbitTime: 540
-orbitSpacing: 17
-orbitRadius: 43
+orbitTime: 12000
+orbitSpacing: 19
+orbitRadius: 58
 solarSystem: odin-9a
 updateLighting: true
-radius: 1.2
-minZoom: 0.8
+//radius: 1.7
+//minZoom: 0.8
 drawOrbit: true
 //defaultEnv: 17
-cloudColor: 1a1816bb
-lighting: 111212ce
-ambientLight: 111212ce
-atmosphereColor: 313131FF
+cloudColor: d9eafac0
+lighting: e1eaf0a9
+ambientLight: e1eaf0a9
+atmosphereColor: c8d1e393
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.25
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 1583
 bloom: true
 visible: true
-iconColor: 313131FF
+iconColor: dceef2b4
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: frostbite
+defaultCore: core-frostbite
 parent: odin-9a
 solarSystem: odin-9a
 launchCandidates: []
