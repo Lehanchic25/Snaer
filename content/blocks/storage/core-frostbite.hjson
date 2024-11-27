@@ -1,0 +1,24 @@
+type: CoreBlock
+localizedName: Frostbite
+category: effect
+health: 1100
+size: 3
+
+itemCapacity: 4000
+unitCapModifier: 8
+unitType: "beta"
+incinerateNonBuildable: true
+isFirstTier: true
+squareSprite: false
+
+requirements: [
+
+]
+
+research: {
+    root: true
+    name: Snaer
+	planet: snaer-a
+}
+
+alwaysUnlocked: true
