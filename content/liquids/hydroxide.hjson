@@ -17,5 +17,5 @@
   lightColor: AA66B4
   coolant: false
   research: {
-    parent: methane
+    parent: cold-water
   } 
