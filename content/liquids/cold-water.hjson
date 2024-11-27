@@ -18,5 +18,5 @@
   lightColor: C1BDF1
   coolant: true
   research: {
-    parent: frostbite
+    parent: "core-frostbite"
   } 
