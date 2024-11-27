@@ -11,5 +11,5 @@
   sector: 0
 
   research: {
-    parent: "frostbite"
+    parent: "core-frostbite"
   }
