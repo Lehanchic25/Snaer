@@ -11,5 +11,5 @@
     erekir
 ]
   research: {
-    parent: frostbite
+    parent: "core-frostbite"
   }
