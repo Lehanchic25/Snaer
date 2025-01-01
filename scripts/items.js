@@ -1,7 +1,7 @@
 const rhenium = extend(Item, "rhenium", {});
 const lithium = extend(Item, "lithium", {});
 const brownCoal = extend(Item, "brown-coal", {});
-const snaerSilicon = extend(Item, "snaer-silicon", {});
+const germаnium = extend(Item, "germаnium", {});
 const palladium = extend(Item, "palladium", {});
 const snaerTungsten = extend(Item, "snaer-tungsten", {});
 const snaerCarbide = extend(Item, "snaer-carbide", {});
@@ -13,7 +13,7 @@ module.exports = {
 rhenium: rhenium,
 lithium: lithium,
 brownCoal: brownCoal,
-snaerSilicon: snaerSilicon,
+germаnium: germаnium,
 palladium: palladium,
 snaerTungsten: snaerTungsten,
 snaerCarbide: snaerCarbide,
