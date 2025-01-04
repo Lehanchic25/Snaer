@@ -1,0 +1,5 @@
+type: Floor
+name: "Meteor-silicate floor (crater)"
+variants: 3
+wall: meteor-silicate-wall
+//decoration: 

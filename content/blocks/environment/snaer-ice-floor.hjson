@@ -1,0 +1,5 @@
+type: Floor
+name: "Ice floor"
+variants: 3
+wall: ice-wall
+//decoration: 

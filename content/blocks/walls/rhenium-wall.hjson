@@ -1,0 +1,13 @@
+type: Wall
+name: Rhenium wall
+health: 750
+size: 1
+requirements: [
+  rhenium/4
+ ]
+category: defense
+research: {
+  parent: core-frostbite
+  planet: snaer-snaer-a
+}
+researchCostMultiplier: 0.20

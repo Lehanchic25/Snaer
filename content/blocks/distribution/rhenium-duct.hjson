@@ -1,0 +1,24 @@
+  type: Duct
+  name: "Rhenium conveyor"
+  description: "Trasnport items"
+update: true
+hasItems: true
+itemCapacity: 1
+isDuct: true
+underBullets: true
+  category: distribution
+  speed: 4
+  displayedSpeed: 1
+  //junctionReplacement: //TODO
+  //bridgeReplacement: //TODO
+  health: 40
+  acceptsItems: true
+  requirements: [
+    rhenium/1
+]
+
+research: {
+  parent: core-frostbite
+  planet: snaer-snaer-a
+}
+researchCostMultiplier: 0.3

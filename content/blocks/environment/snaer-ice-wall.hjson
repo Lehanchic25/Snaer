@@ -1,0 +1,3 @@
+type: StaticWall
+name: "Ice wall"
+variants: 3

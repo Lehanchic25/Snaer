@@ -1,0 +1,5 @@
+type: Floor
+name: "Lignite floor"
+variants: 3
+wall: lignite-wall
+//decoration: 
