@@ -2,10 +2,11 @@
   gas: true
   name: Hydrosulfide
   description: "Liquid. \nJust a gas."
-  flammability: 0.3
-  temperature: 0.6
-  heatCapacity: 0.1
-  viscosity: 0.4
+  
+  flammability: 1.35
+  temperature: 0.30
+  heatCapacity: 0.50
+  viscosity: 0.50
   hiddenOnPlanets: [
     erekir
     serpulo
