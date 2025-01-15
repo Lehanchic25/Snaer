@@ -1,4 +1,5 @@
 const coldWater = extend(Liquid, "cold-water", {});
+const chilledWater = extend(Liquid, "chilled-water", {});
 const methane = extend(Liquid, "methane", {});
 const snaerHydrogen = extend(Liquid, "snaer-hydrogen", {});
 const hydroxide = extend(Liquid, "hydroxide", {});
@@ -9,6 +10,7 @@ const caesium137 = extend(Liquid, "caesium-137", {});
 
 module.exports = {
 coldWater: coldWater,
+chilledWater: chilledWater,
 methane: methane,
 snaerHydrogen: snaerHydrogen,
 hydroxide: hydroxide,
