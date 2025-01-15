@@ -204,8 +204,9 @@ launchCandidates: []
 itemWhitelist: [
   "rhenium",
   "lithium",
+  "silicon-shard",
   "brown-coal",
-  "germаnium",
+  "sulfur"
   "palladium",
   "phosphorus",
   "snaer-tungsten",
