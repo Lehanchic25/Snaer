@@ -2,11 +2,11 @@
   gas: true
   name: Methane
   description: "Liquid. \nJust a liquid."
-  explosivity: 1.45
+  explosiveness: 1.45
   flammability: 0.85
-  temperature: 0.4
-  heatCapacity: 0.45
-  viscosity: 0.6
+  temperature: 0.5
+  heatCapacity: 0.5
+  viscosity: 0.5
   hiddenOnPlanets: [
     erekir
     serpulo
