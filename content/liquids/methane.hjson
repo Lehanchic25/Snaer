@@ -1,10 +1,10 @@
   //type: Liquid
-  gas: false
+  gas: true
   name: Methane
   description: "Liquid. \nJust a liquid."
   flammability: 0.85
   temperature: 0.4
-  heatCapacity: 0.42
+  heatCapacity: 0.45
   viscosity: 0.6
   hiddenOnPlanets: [
     erekir
