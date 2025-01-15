@@ -2,7 +2,7 @@
   gas: true
   name: Hydrosulfide
   description: "Liquid. \nJust a gas."
-  
+  explosivity: 0.65
   flammability: 1.35
   temperature: 0.30
   heatCapacity: 0.50
@@ -11,10 +11,10 @@
     erekir
     serpulo
   ]
-  color: FFF79F
-  gasColor: FFF79F
-  barColor: FFF79F
-  lightColor: FFF79F
+  color: DFD48F
+  gasColor: DFD48F
+  barColor: DFD48F
+  lightColor: DFD48F
   coolant: false
   research: {
     parent: snaer-hydrogen
