@@ -1,0 +1,15 @@
+  name: Sulfur
+  description: "Item. \nJust item."
+  explosiveness: 0.25
+  flammability: 0.6
+  radioactivity: 0
+  charge: 0
+  color: f5d973
+  cost: 1.4
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+]
+  research: {
+    parent: snaer-tungsten
+  }
