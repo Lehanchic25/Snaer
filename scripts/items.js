@@ -8,6 +8,8 @@ const snaerCarbide = extend(Item, "snaer-carbide", {});
 const phosphorus = extend(Item, "phosphorus", {});
 const amorphousAlloy = extend(Item, "amorphous-alloy", {});
 const fluomoss = extend(Item, "fluomoss", {});
+const sulfur = extend(Item, "sulfur", {});
+const siliconShard = extend(Item, "silicon-shard", {});
 
 module.exports = {
 rhenium: rhenium,
@@ -19,5 +21,7 @@ snaerTungsten: snaerTungsten,
 snaerCarbide: snaerCarbide,
 phosphorus: phosphorus,
 amorphousAlloy: amorphousAlloy,
-fluomoss: fluomoss
+fluomoss: fluomoss,
+sulfur: sulfur,
+siliconShard: siliconShard
 }
