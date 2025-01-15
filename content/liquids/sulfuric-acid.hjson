@@ -1,1 +1,19 @@
-
+//type: Liquid
+  gas: false
+  name: Sulfuric Acid
+  description: "Liquid. \nJust a liquid."
+  temperature: 0.5
+  heatCapacity: 0.4
+  viscosity: 0.75
+  hiddenOnPlanets: [
+    erekir
+    serpulo
+  ]
+  color: BECD45
+  gasColor: BECD45
+  barColor: BECD45
+  lightColor: BECD45
+  coolant: false
+  research: {
+    parent: cold-water
+  } 
