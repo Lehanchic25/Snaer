@@ -3,7 +3,9 @@ const methane = extend(Liquid, "methane", {});
 const snaerHydrogen = extend(Liquid, "snaer-hydrogen", {});
 const hydroxide = extend(Liquid, "hydroxide", {});
 const fluorine = extend(Liquid, "fluorine", {});
-const hydrofluoricAcid = extend(Liquid, "hydrofluoric-acid", {});
+const hydrosulfide = extend(Liquid, "hydrosulfide", {});
+const sulfuricAcid = extend(Liquid, "sulfuric-acid", {});
+const caesium137 = extend(Liquid, "caesium-137", {});
 
 module.exports = {
 coldWater: coldWater,
@@ -11,5 +13,8 @@ methane: methane,
 snaerHydrogen: snaerHydrogen,
 hydroxide: hydroxide,
 fluorine: fluorine,
-hydrofluoricAcid: hydrofluoricAcid
+hydrofluoricAcid: hydrofluoricAcid,
+hydrosulfide: hydrosulfide,
+sulfuricAcid: sulfuricAcid.
+caesium137: caesium137
 }
