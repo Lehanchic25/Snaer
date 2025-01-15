@@ -2,6 +2,7 @@
   gas: true
   name: Methane
   description: "Liquid. \nJust a liquid."
+  explosivity: 1.75
   flammability: 0.85
   temperature: 0.4
   heatCapacity: 0.45
