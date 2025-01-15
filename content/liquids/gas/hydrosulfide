@@ -1,1 +1,20 @@
-
+//type: Liquid
+  gas: true
+  name: Hydrosulfide
+  description: "Liquid. \nJust a gas."
+  flammability: 0.3
+  temperature: 0.6
+  heatCapacity: 0.1
+  viscosity: 0.4
+  hiddenOnPlanets: [
+    erekir
+    serpulo
+  ]
+  color: FFF79F
+  gasColor: FFF79F
+  barColor: FFF79F
+  lightColor: FFF79F
+  coolant: false
+  research: {
+    parent: snaer-hydrogen
+  } 
