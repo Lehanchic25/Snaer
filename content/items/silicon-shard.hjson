@@ -1,11 +1,10 @@
-  name: Germаnium
+  name: Silicon Shard
   description: "Item. \nJust item."
   explosiveness: 0
   flammability: 0
   radioactivity: 0
   charge: 0
-  color: 53565C
-  cost: 1
+  color: 6E7482
   hiddenOnPlanets: [
     serpulo
     erekir
