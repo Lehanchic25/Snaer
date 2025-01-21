@@ -1,0 +1,13 @@
+localizedName: Aiming
+color: FF8B7E
+damageMultiplier: 2
+speedMultiplier: 0.8
+reloadMultiplier: 1.5
+dragMultiplier: 1.25
+affinities: [
+    overdrive
+  ]
+
+opposites: [
+    drain
+  ]
