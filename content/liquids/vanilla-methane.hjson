@@ -1,0 +1,21 @@
+  //type: Liquid
+  gas: true
+  name: Vanilla Methane
+  description: "Liquid. \nJust a liquid."
+  explosiveness: 1.45
+  flammability: 0.85
+  temperature: 0.5
+  heatCapacity: 0.5
+  viscosity: 0.5
+  hiddenOnPlanets: [
+    erekir
+    serpulo
+  ]
+  color: D18835
+  gasColor: D18835
+  barColor: D18835
+  lightColor: D18835
+  coolant: false
+  research: {
+    parent: "core-frostbite"
+  } 
