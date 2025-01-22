@@ -1,6 +1,7 @@
 const coldWater = extend(Liquid, "cold-water", {});
 const chilledWater = extend(Liquid, "chilled-water", {});
 const methane = extend(Liquid, "methane", {});
+const vanillaMethane = extend(Liquid, "vanilla-methane", {});
 const snaerHydrogen = extend(Liquid, "snaer-hydrogen", {});
 const hydroxide = extend(Liquid, "hydroxide", {});
 const fluorine = extend(Liquid, "fluorine", {});
@@ -12,6 +13,7 @@ module.exports = {
 coldWater: coldWater,
 chilledWater: chilledWater,
 methane: methane,
+vanillaMethane: vanillaMethane,
 snaerHydrogen: snaerHydrogen,
 hydroxide: hydroxide,
 fluorine: fluorine,
