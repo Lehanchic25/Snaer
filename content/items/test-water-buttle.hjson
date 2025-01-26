@@ -1,0 +1,15 @@
+name: "Bottled Water"
+  description: "Item. \nJust item."
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  color: FFFFFF
+  cost: 1
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+]
+  research: {
+    parent: rhenium
+      }
