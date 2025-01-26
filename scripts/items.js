@@ -10,6 +10,7 @@ const amorphousAlloy = extend(Item, "amorphous-alloy", {});
 const fluomoss = extend(Item, "fluomoss", {});
 const sulfur = extend(Item, "sulfur", {});
 const siliconShard = extend(Item, "silicon-shard", {});
+const testWB = extend(Item, "test-water-buttle", {});
 
 module.exports = {
 rhenium: rhenium,
@@ -23,5 +24,6 @@ phosphorus: phosphorus,
 amorphousAlloy: amorphousAlloy,
 fluomoss: fluomoss,
 sulfur: sulfur,
-siliconShard: siliconShard
+siliconShard: siliconShard,
+testWB: testWB
 }
