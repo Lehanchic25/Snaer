@@ -3,11 +3,11 @@ const chilledWater = extend(Liquid, "chilled-water", {});
 const methane = extend(Liquid, "methane", {});
 const vanillaMethane = extend(Liquid, "vanilla-methane", {});
 const snaerHydrogen = extend(Liquid, "snaer-hydrogen", {});
-const hydroxide = extend(Liquid, "hydroxide", {});
+const hydroxide = extend(SnaerLiquid, "hydroxide", {});
 const fluorine = extend(Liquid, "fluorine", {});
 const hydrosulfide = extend(Liquid, "hydrosulfide", {});
-const sulfuricAcid = extend(Liquid, "sulfuric-acid", {});
-const caesium137 = extend(Liquid, "caesium-137", {});
+const sulfuricAcid = extend(SnaerLiquid, "sulfuric-acid", {});
+const caesium137 = extend(SnaerLiquid, "caesium-137", {});
 
 module.exports = {
 coldWater: coldWater,

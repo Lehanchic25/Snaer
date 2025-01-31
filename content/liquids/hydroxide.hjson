@@ -1,4 +1,4 @@
-  //type: Liquid
+  //type: SnaerLiquid
   gas: false
   name: Hydrooxide
   description: "Liquid. \nJust a liquid."
@@ -6,6 +6,7 @@
   temperature: 0.6
   heatCapacity: 0.1
   viscosity: 0.4
+  aggressiveness: 1.25
   effect: melting
   hiddenOnPlanets: [
     erekir

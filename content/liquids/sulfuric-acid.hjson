@@ -1,10 +1,11 @@
-//type: Liquid
+//type: SnaerLiquid
   gas: false
   name: Sulfuric Acid
   description: "Liquid. \nJust a liquid."
   temperature: 0.5
   heatCapacity: 0.2
   viscosity: 0.75
+  aggressiveness: 1.72
   hiddenOnPlanets: [
     erekir
     serpulo

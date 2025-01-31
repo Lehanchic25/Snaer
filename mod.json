@@ -6,3 +6,4 @@ description: "Новая планета"
 author: "Lethal Employee, Lehanchic25"
 version: "1.5"
 hidden: true
+dependencies: ["snaer-java-lib"]
